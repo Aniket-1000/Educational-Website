@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website - Study Materials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EduLearn</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="interactive-learning.html">Interactive Learning</a></li>
+                <li><a href="study_materials_and_notes.html" class="active">Study Materials</a></li>
+                <li><a href="progress_tracking.html">Progress</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login_and_registration.html" class="login-button">Login</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main>
+        <section class="study-materials-section">
+            <h1>Study Materials and Notes</h1>
+            <p>Access uploaded notes and materials shared by teachers for enhanced learning.</p>
+
+            <!-- Form for Uploading Materials -->
+            <div class="upload-section">
+                <h2>Upload Materials</h2>
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="file-upload">Select File:</label>
+                    <input type="file" id="file-upload" name="file-upload" accept=".pdf,.doc,.ppt,.txt">
+                    <input type="submit" value="Upload" class="upload-button">
+                </form>
+            </div>
+
+            <!-- Materials Table -->
+            <div class="materials-table">
+                <h2>Available Study Materials</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Material Name</th>
+                            <th>Uploaded By</th>
+                            <th>Date</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Introduction to Economics</td>
+                            <td>Prof. John Smith</td>
+                            <td>Dec 2, 2024</td>
+                            <td><a href="#" class="download-link">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Mathematics Practice Problems</td>
+                            <td>Ms. Jane Doe</td>
+                            <td>Dec 1, 2024</td>
+                            <td><a href="#" class="download-link">Download</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">EduLearn</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="interactive-learning.html">Interactive Learning</a></li>
+                <li><a href="study_materials_and_notes.html">Study Materials</a></li>
+                <li><a href="progress_tracking.html">Progress</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login_and_registration.html" class="active login-button">Login</a></li>
+            </ul>
+        </nav>        
+    </header>
+
+    <main>
+        <section class="auth-section">
+            <div class="form-container">
+                <!-- Login Form -->
+                <form id="login-form">
+                    <h2>Login</h2>
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" placeholder="Enter your email" required>
+                    
+                    <label for="login-password">Password:</label>
+                    <input type="password" id="login-password" placeholder="Enter your password" required>
+                    
+                    <button type="submit" class="auth-button">Login</button>
+                </form>
+
+                <div class="divider">or</div>
+
+                <!-- Registration Form -->
+                <form id="register-form">
+                    <h2>Register</h2>
+                    <label for="register-name">Full Name:</label>
+                    <input type="text" id="register-name" placeholder="Enter your full name" required>
+                    
+                    <label for="register-email">Email:</label>
+                    <input type="email" id="register-email" placeholder="Enter your email" required>
+                    
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" placeholder="Create a password" required>
+                    
+                    <button type="submit" class="auth-button">Register</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
